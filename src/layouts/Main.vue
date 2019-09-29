@@ -46,9 +46,10 @@ export default {
     transform rotate(0)
 
   .menuBtns
-    display none
+    opacity 0
+    transition opacity .25s
     &.active
-      display block
+      opacity 1
     .q-btn
       position absolute
     .option-1
